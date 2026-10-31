@@ -28,7 +28,8 @@ Giao diện chia theo hãng (Dell, HP, Apple, Lenovo, AMI, Chromebook) kèm bộ
 
 - Tự nhận diện hãng BIOS khi nạp tệp; nhầm hãng thì hỏi chuyển tab hoặc tiếp tục.
 - Kéo-thả tệp thẳng vào cửa sổ, kể cả khi chạy quyền quản trị.
-- Nhật ký thao tác ngay trong app và file nhật ký đầy đủ để gửi hỗ trợ.
+- Nhật ký thao tác ngay trong app và file nhật ký gọn để gửi hỗ trợ.
+- Cửa sổ **Giới thiệu**: bấm logo hoặc chữ "BIOS Master" ở góc trên bên trái (hoặc phím F1) để xem thông tin nhà phát hành, phiên bản, giấy phép của bạn và các kênh hỗ trợ.
 - **Không cần cài Python hay thư viện nào.** Công cụ ngoài (7-Zip, MEA, BIOSUtilities, UEFIExtract, ComExtract) chỉ được tải khi bạn dùng đến chức năng cần chúng: app hỏi trước, lấy thẳng từ nơi của tác giả và kiểm tra SHA-256 trước khi dùng.
 - Tự báo khi có phiên bản mới trong thời hạn cập nhật của bạn.
 
@@ -92,16 +93,24 @@ Khi kích hoạt và xác nhận giấy phép, phần mềm gửi tới máy ch�
 | "Bản này phát hành sau thời hạn cập nhật" | Bạn đang mở bản mới hơn thời hạn cập nhật của mình. Dùng bản cũ hơn, hoặc gia hạn cập nhật. |
 | Một chức năng báo thiếu công cụ | Chọn *Tải về* khi app hỏi; cần có mạng lần đầu. |
 
-Khi cần hỗ trợ, gửi kèm file nhật ký: `%LOCALAPPDATA%\BiosMaster\biosmaster.log`.
-
 ## Lưu ý quan trọng
 
 Các thao tác vá và sửa firmware có thể khiến máy **không khởi động được**. Luôn sao lưu file BIOS gốc trước khi ghi, chỉ thao tác trên máy bạn có quyền xử lý và hiểu rủi ro. Phần mềm được cung cấp để phục vụ kỹ thuật viên; người dùng tự chịu trách nhiệm về cách sử dụng.
 
 ## Mua hàng và hỗ trợ
 
-Mua mã kích hoạt, gia hạn cập nhật theo năm, đổi máy quá lượt hoặc cần hỗ trợ: liên hệ người bán qua kênh bạn đã dùng để mua phần mềm.
+Mua mã kích hoạt, gia hạn cập nhật theo năm, đổi máy quá lượt hoặc cần hỗ trợ: liên hệ **Vạn Thịnh Tech**.
+
+| Kênh | Liên hệ |
+|---|---|
+| **Zalo** | [0926.682.333](https://zalo.me/0926682333) |
+| **Telegram** | [@vanthuchn](https://t.me/vanthuchn) |
+| **WhatsApp** | [+84 926 682 333](https://wa.me/84926682333) |
+
+Các kênh này cũng nằm trong cửa sổ **Giới thiệu** của phần mềm (bấm logo hoặc chữ "BIOS Master").
+
+Khi nhờ hỗ trợ, gửi kèm file nhật ký `%LOCALAPPDATA%\BiosMaster\biosmaster.log` (không chứa dữ liệu BIOS của bạn).
 
 ---
 
-© BIOS Master. Mọi quyền được bảo lưu. Đây là phần mềm thương mại; kho này dùng để phân phối các bản phát hành.
+© 2026 Vạn Thịnh Tech. Mọi quyền được bảo lưu. BIOS Master Tool Kit là phần mềm thương mại; kho này dùng để phân phối các bản phát hành.
