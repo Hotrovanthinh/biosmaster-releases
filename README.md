@@ -22,7 +22,7 @@ Giao diện chia theo hãng (Dell, HP, Apple, Lenovo, AMI, Chromebook) kèm bộ
 | **LENOVO** | Đọc DMI và xử lý BIOS Lenovo |
 | **AMI BIOS** | Đọc thông tin, vá BIOS AMI, dọn SPD và VSS |
 | **CHROMEBOOK** | Vá BIOS Chromebook |
-| **CÔNG CỤ** | Phân tích Intel ME (MEA), RCUnlocker, trích và thay logo BIOS, trích VBT, kiểm tra Secure Boot, **GIẢI NÉN** 16 loại gói firmware (Dell PFS, AMI, Award, Insyde, Phoenix, Fujitsu, Panasonic, Toshiba, Apple EFI, VAIO...) |
+| **CÔNG CỤ** | Phân tích Intel ME (MEA), RCUnlocker, trích và thay logo BIOS, trích VBT, kiểm tra Secure Boot, **GIẢI NÉN** 17 loại gói firmware, gồm **HP SoftPaq mọi dạng** (CAB, 7z, Insyde, AMI UCP), Dell PFS, AMI, Award, Insyde, Phoenix, Fujitsu, Panasonic, Toshiba, Apple EFI, VAIO... |
 
 **Tiện ích đi kèm**
 
