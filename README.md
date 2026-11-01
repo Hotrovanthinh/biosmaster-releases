@@ -19,14 +19,15 @@ Giao diện chia theo hãng (Dell, HP, Apple, Lenovo, AMI, Chromebook) kèm bộ
 | **DELL** | Đọc thông tin DMI, mở khóa và vá các dạng BIOS Dell, giải nén gói PFS, tải BIOS mới nhất |
 | **HP** | Đọc DMI, xử lý gói SoftPaq / SFX, vá BIOS HP (G8, G9), dọn dẹp VSS |
 | **APPLE** | Đọc thông tin và vá firmware Apple |
-| **LENOVO** | Đọc DMI và xử lý BIOS Lenovo |
+| **LENOVO** | Đọc DMI, xử lý BIOS Lenovo, giải nén gói BIOS Lenovo dạng `.exe` (Inno Setup) |
 | **AMI BIOS** | Đọc thông tin, vá BIOS AMI, dọn SPD và VSS |
 | **CHROMEBOOK** | Vá BIOS Chromebook |
-| **CÔNG CỤ** | Phân tích Intel ME (MEA), RCUnlocker, trích và thay logo BIOS, trích VBT, kiểm tra Secure Boot, **GIẢI NÉN** 17 loại gói firmware, gồm **HP SoftPaq mọi dạng** (CAB, 7z, Insyde, AMI UCP), Dell PFS, AMI, Award, Insyde, Phoenix, Fujitsu, Panasonic, Toshiba, Apple EFI, VAIO... |
+| **CÔNG CỤ** | Phân tích Intel ME (MEA), RCUnlocker, trích và thay logo BIOS, trích VBT, kiểm tra Secure Boot, **GIẢI NÉN** 21 loại gói firmware, gồm **HP SoftPaq mọi dạng** (CAB, 7z, Insyde, AMI UCP), **Lenovo (Inno Setup)**, Dell PFS, AMI, Award, Insyde, Phoenix, Fujitsu, Panasonic, Toshiba, Apple EFI, VAIO, gói nén thông dụng (7-Zip), ảnh UEFI tách từng module (UEFIExtract), tệp nén EFI / Tiano... |
 
 **Tiện ích đi kèm**
 
 - Tự nhận diện hãng BIOS khi nạp tệp; nhầm hãng thì hỏi chuyển tab hoặc tiếp tục.
+- Kéo-thả file `.exe` BIOS của Dell, Lenovo hoặc HP: app tự nhận ra hãng (chỉ đọc nội dung, không chạy file), giải nén và báo kết quả; thả nhầm tab thì đề nghị chuyển sang tab đúng.
 - Kéo-thả tệp thẳng vào cửa sổ, kể cả khi chạy quyền quản trị.
 - Nhật ký thao tác ngay trong app và file nhật ký gọn để gửi hỗ trợ.
 - Cửa sổ **Giới thiệu**: bấm logo hoặc chữ "BIOS Master" ở góc trên bên trái (hoặc phím F1) để xem thông tin nhà phát hành, phiên bản, giấy phép của bạn và các kênh hỗ trợ.
