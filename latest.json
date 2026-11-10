@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "app": {
+    "version": "1.3.17",
+    "date": "2026-11-10",
+    "notes": "• Tab Dell: nhận diện chính xác hơn các máy đời mới (Dell Pro); thẻ thông tin có nút thao tác ngay trên từng dòng.\n• Tab Dell: thêm Chuyển DMI sang BIOS cùng model, Ghép / Tách dump máy 2 chip và dọn vùng EC cho máy đời mới.\n• Công cụ Ghép / Tách chip: chế độ Tự động nhận ra cần ghép hay tách; chế độ Thủ công vẫn giữ nguyên.",
+    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.17/BiosMaster.exe",
+    "sha256": "4f49e8807a94557e4cdee715c25a4daaa624fd4c86cd28caf42a10e9c49d08d2",
+    "size": 20451840
+  }
+}
