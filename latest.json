@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": {
-    "version": "1.3.18",
-    "date": "2026-11-11",
-    "notes": "• Tab Dell: thêm Dựng lại BIOS (Rebuild): chọn phiên bản BIOS của hãng (bản đang có trong tệp được tô xanh) rồi chọn việc cần làm cho BIOS, ME, EC và LAN; luôn lưu ra tệp mới.\n• Tab Dell: chế độ Tạo ảnh Origin dựng ảnh sạch như xuất xưởng, không mang dữ liệu của máy.\n• Tab Dell: ô Tùy chọn chức năng được sắp lại (Dựng lại BIOS lên đầu); rê chuột vào từng phân vùng ME để xem giải thích.",
-    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.18/BiosMaster.exe",
-    "sha256": "3e6354ee73e51f97c42eef3b5b673c1675dda65b3cc15479c103a618bcf81c04",
-    "size": 20656128
+    "version": "1.3.19",
+    "date": "2026-11-13",
+    "notes": "- Dựng lại BIOS (Dell): giao diện mới gọn hơn, thêm Sửa nhanh, Mở ME khác, chọn ảnh ME và cặp EC; tự nhận đúng biến thể gói theo dòng CPU của máy và cảnh báo khi chọn không khớp.\n- Tab Dell: thông tin máy đầy đủ hơn (trạng thái ME, nguồn System ID, chứng chỉ Secure Boot, ME đời mới); nút Tải ngay ở dòng Phiên bản BIOS.\n- Sửa lỗi dọn dữ liệu EC trên máy Dell đời mới và lỗi trộn thành phần khi dùng thư mục gói nhiều biến thể.",
+    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.19/BiosMaster.exe",
+    "sha256": "d8430ff47c45be9787f966155f281ae787bb7294187783e40c2720d27c744b5b",
+    "size": 20859392
   }
 }
