@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "app": {
-    "version": "1.3.19",
-    "date": "2026-11-13",
-    "notes": "- Dựng lại BIOS (Dell): giao diện mới gọn hơn, thêm Sửa nhanh, Mở ME khác, chọn ảnh ME và cặp EC; tự nhận đúng biến thể gói theo dòng CPU của máy và cảnh báo khi chọn không khớp.\n- Tab Dell: thông tin máy đầy đủ hơn (trạng thái ME, nguồn System ID, chứng chỉ Secure Boot, ME đời mới); nút Tải ngay ở dòng Phiên bản BIOS.\n- Sửa lỗi dọn dữ liệu EC trên máy Dell đời mới và lỗi trộn thành phần khi dùng thư mục gói nhiều biến thể.",
-    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.19/BiosMaster.exe",
-    "sha256": "d8430ff47c45be9787f966155f281ae787bb7294187783e40c2720d27c744b5b",
-    "size": 20859392
+    "version": "1.3.20",
+    "date": "2026-11-17",
+    "notes": "Dựng lại BIOS (HP): tải gói BIOS của HP (chọn phiên bản từ danh mục hoặc dùng tệp .exe) rồi sửa lại vùng BIOS và ME, giữ hoặc xóa dữ liệu máy, giữ thông tin DMI, sửa nhanh, dùng ảnh ME từ máy khác; dựng lại chip EC (mảnh thứ 2) cho máy HP 2 chip dòng G9 trở lên. Các đời ME chưa hỗ trợ sẽ bị khóa, không dựng sai.\nTab HP: nút 'HỖ TRỢ' ngay dòng Serial (sao chép Serial/SKU và mở trang hỗ trợ HP); bỏ hai nút tải trùng lặp, thẻ thông tin rộng hơn.\nTab Dell: cập nhật tên các tùy chọn chức năng (Dựng lại BIOS; Dọn vùng EC, Sửa mã dịch vụ).",
+    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.20/BiosMaster.exe",
+    "sha256": "f32d31d002555af4f249ffa4efa4d57ffafc94467c78e505f548a6418664f196",
+    "size": 21054976
   }
 }
