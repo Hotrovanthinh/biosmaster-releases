@@ -3,7 +3,7 @@
   "app": {
     "version": "1.3.21",
     "date": "2026-11-20",
-    "notes": "BIOS Master Tool Kit v1.3.21 — Có gì mới:\n\n- Hỗ trợ máy nền AMD đầy đủ hơn: phân tích bảo mật (PSP/AGESA/fTPM) và Dựng lại BIOS trên tab Dell, HP cho máy dùng chip AMD.\n- Dựng lại BIOS: xử lý thêm dòng ME đời mới, giữ logo khởi động tùy chỉnh, chọn - khớp - lưu mảnh chip EC rời.\n- Tab Phân tích / Sửa gom về một tab; thêm Sửa địa chỉ MAC (GbE) và Mở khóa ghi (FLMSTR); sửa danh sách chọn bị cắt khi sát đáy màn hình.\n- SPD: đọc thêm máy nền AMD, gộp bản sao, tự nhận loại DDR; bảng hiển thị đủ chữ ở cả tiếng Việt lẫn tiếng Anh.",
+    "notes": "- Hỗ trợ máy nền AMD đầy đủ hơn: phân tích bảo mật (PSP/AGESA/fTPM) và Dựng lại BIOS trên tab Dell, HP cho máy dùng chip AMD.\n- Dựng lại BIOS: xử lý thêm dòng ME đời mới, giữ logo khởi động tùy chỉnh, chọn - khớp - lưu mảnh chip EC rời.\n- Tab Phân tích / Sửa gom về một tab; thêm Sửa địa chỉ MAC (GbE) và Mở khóa ghi (FLMSTR); sửa danh sách chọn bị cắt khi sát đáy màn hình.\n- SPD: đọc thêm máy nền AMD, gộp bản sao, tự nhận loại DDR; bảng hiển thị đủ chữ ở cả tiếng Việt lẫn tiếng Anh.",
     "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.21/BiosMaster.exe",
     "sha256": "cea0cc7a9c2363e7f19ad0d337b4f72d72a64a5450be78e5ddad9239471bbac0",
     "size": 21293568
