@@ -1,11 +1,12 @@
 {
   "schema": 1,
   "app": {
-    "version": "1.3.22",
-    "date": "2026-11-22",
-    "notes": "- Dựng lại BIOS (tab HP): làm lại giao diện gọn và rõ ràng hơn — chọn gói, chọn việc cần làm, rồi dựng lại theo trình tự mạch lạc.\n- Dựng lại BIOS HP chính xác hơn trên nhiều dòng máy và nhiều đời ME, giữ đúng dữ liệu riêng của máy (DMI, NVRAM, logo khởi động).\n- Thêm chế độ nâng cao: chọn riêng từng phần ME khi dựng lại; EC Repair (chip EC rời trên máy đời mới) cho kết quả chính xác hơn.\n- Bổ sung phần giải thích các thành phần ME đời mới trong hộp thoại và chỉnh lại một số câu chữ giao diện.",
-    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.22/BiosMaster.exe",
-    "sha256": "99d320e2cc2aeca9bb604fe184d7b57a2742d9fa4a047cad25711fe598a926c3",
-    "size": 21332992
+    "version": "1.3.23",
+    "date": "2026-11-24",
+    "notes": "- Dựng lại BIOS (tab Dell): xử lý chính xác hơn trên nhiều dòng máy và nhiều đời ME, kể cả các dòng đời mới.\n- Thêm chức năng \"Mở khóa 8CF8, 9ABE\" trong Tùy chọn chức năng của tab Dell.\n- Tải gói firmware về cùng thư mục với tệp đang mở (cả tab HP và Dell), dễ tìm và gọn hơn.\n- Sửa lỗi \"Không tách được ảnh BIOS từ gói\" khi đặt chương trình ở đường dẫn quá dài (ví dụ trong OneDrive\\Desktop).\n- Hộp thoại cập nhật hiển thị ghi chú theo đúng ngôn ngữ giao diện (Việt / Anh).",
+    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.23/BiosMaster.exe",
+    "sha256": "e03470734ebc63ed2765a0a3ac9f5582f7622b23c6a1d2cdbeeb2f86029a5a5f",
+    "size": 21416448,
+    "notes_en": "- Rebuild BIOS (Dell tab): more accurate across more machine lines and ME generations, including newer models.\n- Added the \"Unlock 8CF8, 9ABE\" function to the Dell tab's function options.\n- Firmware packages now download into the same folder as the open file (both HP and Dell tabs) — easier to find and tidier.\n- Fixed \"Cannot extract BIOS image from package\" when the program sits in a very long path (e.g. inside OneDrive\\Desktop).\n- The update dialog now shows the notes in the current interface language (Vietnamese / English)."
   }
 }
