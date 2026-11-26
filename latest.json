@@ -3,10 +3,10 @@
   "app": {
     "version": "1.3.24",
     "date": "2026-11-26",
-    "notes": "- Chuẩn hóa nhận diện hãng và đọc thông tin DMI cho 10 hãng laptop, máy bàn và AIO (Dell, HP, Lenovo, ASUS, Acer, Apple, MSI, Samsung, Fujitsu, Microsoft Surface):\n  + Cải thiện độ chính xác khi nhận diện hãng tự động từ file BIOS gốc.\n  + Bổ sung đọc phiên bản BIOS, ngày phát hành, tên máy và mã bo mạch chuẩn xác hơn trên các dòng máy cũ và mới (bao gồm máy bàn và mainboard rời).\n  + Lọc bỏ các giá trị mặc định/mẫu chưa nạp từ nhà sản xuất để hiển thị thông tin sạch và tin cậy hơn.",
+    "notes": "- Chuẩn hóa nhận diện hãng và đọc thông tin DMI cho 10 hãng laptop, máy bàn và AIO (Dell, HP, Lenovo, ASUS, Acer, Apple, MSI, Samsung, Fujitsu, Microsoft Surface).\n- Cải thiện độ chính xác khi nhận diện hãng tự động từ file BIOS gốc.\n- Bổ sung đọc phiên bản BIOS, ngày phát hành, tên máy và mã bo mạch chuẩn xác hơn trên cả dòng cũ và mới.\n- Lọc bỏ các giá trị mặc định/mẫu chưa nạp từ nhà sản xuất để hiển thị thông tin sạch và tin cậy hơn.",
     "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.24/BiosMaster.exe",
     "sha256": "b3f59a3418fcbc9f9dbca46093df585d11514c2c23bc7f9474357f525416cb6f",
     "size": 21519360,
-    "notes_en": "- Standardized vendor detection and DMI extraction across 10 laptop, desktop, and AIO brands (Dell, HP, Lenovo, ASUS, Acer, Apple, MSI, Samsung, Fujitsu, Microsoft Surface):\n  + Improved accuracy of automatic vendor detection from BIOS dumps.\n  + Enhanced BIOS version, release date, model, and board identification across legacy and modern platforms (including desktops and motherboards).\n  + Filtered out factory placeholder values for cleaner and more reliable device information."
+    "notes_en": "- Standardized vendor detection and DMI extraction across 10 laptop, desktop, and AIO brands (Dell, HP, Lenovo, ASUS, Acer, Apple, MSI, Samsung, Fujitsu, Microsoft Surface).\n- Improved accuracy of automatic vendor detection from BIOS dumps.\n- Enhanced BIOS version, release date, model, and board identification across legacy and modern platforms.\n- Filtered out factory placeholder values for cleaner and more reliable device information."
   }
 }
