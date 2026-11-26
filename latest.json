@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "app": {
-    "version": "1.3.24",
+    "version": "1.3.25",
     "date": "2026-11-26",
-    "notes": "- Chuẩn hóa nhận diện hãng và đọc thông tin DMI cho 10 hãng laptop, máy bàn và AIO (Dell, HP, Lenovo, ASUS, Acer, Apple, MSI, Samsung, Fujitsu, Microsoft Surface).\n- Cải thiện độ chính xác khi nhận diện hãng tự động từ file BIOS gốc.\n- Bổ sung đọc phiên bản BIOS, ngày phát hành, tên máy và mã bo mạch chuẩn xác hơn trên cả dòng cũ và mới.\n- Lọc bỏ các giá trị mặc định/mẫu chưa nạp từ nhà sản xuất để hiển thị thông tin sạch và tin cậy hơn.",
-    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.24/BiosMaster.exe",
-    "sha256": "b3f59a3418fcbc9f9dbca46093df585d11514c2c23bc7f9474357f525416cb6f",
-    "size": 21519360,
-    "notes_en": "- Standardized vendor detection and DMI extraction across 10 laptop, desktop, and AIO brands (Dell, HP, Lenovo, ASUS, Acer, Apple, MSI, Samsung, Fujitsu, Microsoft Surface).\n- Improved accuracy of automatic vendor detection from BIOS dumps.\n- Enhanced BIOS version, release date, model, and board identification across legacy and modern platforms.\n- Filtered out factory placeholder values for cleaner and more reliable device information."
+    "notes": "Tạo mã mở khóa BIOS/HDD: thêm tab Tạo mã tổng hợp trong Công cụ và tab Tạo mã mở khóa riêng ở các hãng Dell, HP, ASUS, Acer, Fujitsu và Samsung.\nNhận diện hãng BIOS: cải thiện độ chính xác tự nhận diện khi nạp tệp, giảm nhận nhầm giữa các hãng và hỗ trợ tốt hơn ảnh BIOS chia đôi chip.\nTab Lenovo: sửa lỗi đọc lệch UUID trên một số tệp BIOS ThinkPad.",
+    "url": "https://github.com/Hotrovanthinh/biosmaster-releases/releases/download/v1.3.25/BiosMaster.exe",
+    "sha256": "a87878c647a1f83d71ac959e51bbded011ea5e5d39aa3226c93f7a3023d6984b",
+    "size": 21654016,
+    "notes_en": "BIOS/HDD unlock code generator: added the unified Generator tab under Tools along with dedicated Unlock Code tabs for Dell, HP, ASUS, Acer, Fujitsu, and Samsung.\nBIOS vendor detection: improved automatic brand detection accuracy when loading dumps, reducing cross-brand misidentification and better handling split-chip images.\nLenovo tab: fixed an issue where UUID values on certain ThinkPad dumps were read with a leading offset."
   }
 }
